@@ -168,12 +168,14 @@ body {
   color:#b9b5beff;
   background-color: #080e25ff;
   border-bottom: solid #195A5C;
+  font-size: 5vmin;
 }
 
 .portfolio .graphtext a{
   color:#2C344D;
   background-color: #b9b5beff;
   border-bottom: solid #6F4B72;
+  font-size: 5vmin;
 }
 
 .portfolio .gametext a{
@@ -419,7 +421,7 @@ body {
 
 .brollop_about h4{
   font-family: 'Lexend', sans-serif;
-  color: #045754ff;
+  color: #6F4B72;
   font-weight: 600;
   font-size: 1rem;
   padding-left: 1vh;
