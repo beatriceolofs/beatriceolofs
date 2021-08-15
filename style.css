@@ -13,6 +13,8 @@
 --honeydew: #e5f7e8ff;
 
 */
+@supports (-webkit-appearance:none) {}
+
 
 html {
   scroll-behavior: smooth;
