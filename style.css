@@ -18,6 +18,10 @@ html {
   scroll-behavior: smooth;
 }
 
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
 body {
   overflow-x: hidden;
 }
@@ -396,7 +400,7 @@ body {
   text-transform: uppercase;
   font-family: 'Lexend', sans-serif;
   color: #045754ff;
-  font-size: 6vmin;
+  font-size: 8vmin;
   padding: 2vh;
   padding-top: 4rem;
   font-weight: 700;
@@ -436,7 +440,7 @@ body {
 .brollop_gallery h2 {
   font-family: Mermaid;
   color: #2C344D;
-  font-size: 5vmin;
+  font-size: 8vmin;
 
 }
 
@@ -576,7 +580,7 @@ body {
   text-transform: uppercase;
   font-family: 'Lexend', sans-serif;
   color: #6F4B72;
-  font-size: 6vmin;
+  font-size: 8vmin;
   padding: 2vh;
   padding-top: 4rem;
   font-weight: 700;
@@ -616,7 +620,7 @@ body {
 .graphics_gallery h2 {
   font-family: Mermaid;
   color: #2C344D;
-  font-size: 5vmin;
+  font-size: 8vmin;
 
 }
 
@@ -741,7 +745,7 @@ body {
   text-transform: uppercase;
   font-family: 'Lexend', sans-serif;
   color: #045754ff;
-  font-size: 4vmin;
+  font-size: 6vmin;
   padding: 2vh;
   padding-top: 4rem;
   padding-bottom: 5rem;
@@ -757,6 +761,7 @@ body {
 
 .scroll_graph a{
   color: #6F4B72;
+  font-size: 6vmin;
 }
 
 .getpdf a{
