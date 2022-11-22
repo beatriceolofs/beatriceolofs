@@ -1,0 +1,389 @@
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+
+.body {
+ background-color: #090A14;
+}
+/* COLORS
+Black
+#090A14
+.
+Dark Blue
+#1E1D39
+.
+Blue
+#355A81
+.
+Light blue
+#4D8CB7
+.
+Bright blue
+#8ABDC7
+.
+Dusty Green
+#577277
+.
+Hot Pink
+#A23E8C
+.
+Baby pink
+#DF84A5
+.
+Red
+#A53030
+.
+Orange
+#DA863E
+.
+Yellow
+#E8C170
+.
+*/
+
+/* FONTS
+
+font-family: 'Source Serif Pro', serif;
+font-family: 'VT323', monospace;
+font-family: 'HarvestItal';
+
+Font sizes
+
+*/
+@font-face {
+  font-family: 'HarvestItal';
+  src: url('harvestital-webfont.woff2') format('woff2'),
+       url('harvestital-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.switch{
+  font-family: 'VT323', monospace;
+  color: #E8C170;
+  transition: 0.2s;
+  text-decoration: none;
+  font-size: 2.5vmin;
+  background-color: rgba(9, 10, 20, 0.8);
+  padding: 4px;
+}
+
+.switch:hover{
+  color: #DA863E;
+}
+
+/* NAVBAR */
+.navbar .navbar-brand{
+  font-family: 'HarvestItal';
+  color: #E8C170;
+  transition: 0.2s;
+}
+
+.navbar .navbar-brand:hover{
+  color: #DA863E;
+}
+.nav-item {
+  font-family: 'VT323', monospace;
+  color: #E8C170;
+  transition: 0.2s;
+  padding-left: 4vmin;
+}
+
+.nav-link {
+  background-color: rgba(9, 10, 20, 0.8);
+}
+
+.navbar span{
+  color: #E8C170;
+}
+.navbar ul li a {
+  color: #4D8CB7;
+}
+
+.navbar ul li a:hover {
+  color: #E8C170;
+}
+
+.navbar-nav {
+  display: flex;
+}
+
+/* BACKGROUND */
+
+.fullbg {
+  background-image: url(/Widgets/Rutby/background.png);
+  box-shadow: inset 0 0 0 1000px rgba(9, 10, 20, 0.3);
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fullbghome {
+  background-image: url(/Widgets/Rutby/background.png);
+  box-shadow: inset 0 0 0 1000px rgba(9, 10, 20, 0.3);
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+
+/* INTRO */
+
+.intro h1 {
+  font-family: 'HarvestItal';
+  font-size: 10vmin;
+  color: #E8C170;
+}
+
+.intro h3 {
+  font-family: 'VT323', monospace;
+  margin-top: -15px;
+  font-size: 5vmin;
+  color: #4D8CB7;
+}
+
+/* GRID */
+
+.space {
+  height: 30px;
+}
+
+.carousel-item {
+  height: 40vmin;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 0;
+}
+
+.card-img{
+  height: 40vmin;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 0;
+}
+
+.card-img-contact {
+  height: 40vh;
+  object-fit: scale-down;
+  object-position: center;
+}
+
+.card-img video {
+  border-radius: 0;
+}
+
+.card-img-defacto{
+  height: 80vmin;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 0;
+}
+
+.card-img-wide{
+  height: 80vmin;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 0;
+}
+
+.card-img-about{
+  height: 60vmin;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 0;
+}
+
+.grid .card {
+  width: 100%;
+  height: 100%;
+  border-radius: 0;
+  box-shadow: 10px 13px #A23E8C;
+  background-color:#080e25ff;
+  padding: 1px;
+}
+
+.card img {
+  border-radius: 0;
+}
+
+.card-img-overlay {
+  transition: 0.4s ease-in-out;
+  opacity: 0;
+  border-radius: 0;
+}
+
+.card-img-overlay:hover{
+  background-color: #080e25ff;
+  opacity: 90%;
+  border-radius: 0;
+}
+
+.card-title{
+  color:#E8C170;
+  font-family: 'VT323', monospace;
+  text-transform: lowercase;
+  text-decoration: none;
+  padding-top: 12vh;
+}
+
+.quote {
+  font-family: 'HarvestItal';
+  font-size: 10vmin;
+  color: #E8C170;
+}
+
+.list {
+  color:#E8C170;
+  font-family: 'VT323', monospace;
+  text-transform: lowercase;
+  text-decoration: none;
+  background-color: #1E1D39;
+  width: 40vh;
+}
+
+.list h5 {
+  font-size: 5vmin;
+}
+
+.about-quote {
+  color:#E8C170;
+  font-family: 'HarvestItal';
+  text-decoration: none;
+}
+
+.about{
+  color:#E8C170;
+  font-family: 'VT323', monospace;
+  text-decoration: none;
+  vertical-align: bottom;
+  background-color: #090A14;
+  box-shadow: 10px 13px #A23E8C;
+}
+
+.about a{
+  color:#4D8CB7;
+  font-family: 'HarvestItal';
+  text-decoration: none;
+  font-size: 4vmin;
+  transition: 0.2s;
+}
+
+.about a:hover{
+  color:#DA863E
+}
+
+.about-list {
+  color:#E8C170;
+  font-family: 'VT323', monospace;
+  text-transform: lowercase;
+  text-decoration: none;
+  background-color: #090A14;
+}
+.about-list li {
+  list-style-type: none;
+}
+.about-list h5 {
+  font-size: 5vmin;
+}
+
+.about-list a {
+  color:#A23E8C;
+  font-family: 'VT323', monospace;
+  text-transform: lowercase;
+  font-size: 5vmin;
+  transition: 0.2s;
+}
+
+.about-list a:hover {
+  color:#DA863E;
+}
+
+.contactul{
+  background-color: #090A14;
+  width: 40vh;
+}
+
+.contactul a{
+  color:#A23E8C;
+  font-family: 'VT323', monospace;
+  text-transform: lowercase;
+  transition: 0.2s;
+  font-size: 5vmin;
+}
+
+.contactul a:hover{
+  color:#DA863E;
+  font-family: 'VT323', monospace;
+  text-transform: lowercase;
+  font-size: 5.2vmin;
+}
+
+.takemeback {
+  background-color: #090A14;
+}
+
+.takemeback a {
+  color:#4D8CB7;
+  font-family: 'VT323', monospace;
+  text-transform: lowercase;
+  font-size: 5vmin;
+  transition: 0.2s;
+}
+
+.takemeback a:hover{
+  color:#DA863E;
+  font-family: 'VT323', monospace;
+  text-transform: lowercase;
+  font-size: 5.2vmin;
+}
+
+.blackbg{
+  background-color: #090A14;
+}
+
+.svtlogo {
+  position: absolute;
+  align-self: flex-end;
+  width: 5vh;
+  margin-top: 2vh;
+  margin-right: 2vh;
+}
+
+.contact-icon {
+  height: 20vmin;
+  transition: 0.2s;
+}
+
+.contact-icon:hover {
+  height: 25vmin;
+}
+
+.contact-title {
+  background-color: #090A14;
+}
+
+.contact-text{
+  color: #4D8CB7;
+  font-family: 'VT323', monospace;
+  font-size: 5vmin;
+  transition: 0.2s;
+}
+
+.contact-text:hover {
+  color:#DA863E;
+  font-family: 'VT323', monospace;
+  font-size: 5.2vmin;
+}
+
+.carousel {
+  width: 100%;
+  height: 100%;
+  border-radius: 0;
+  box-shadow: 10px 13px #A23E8C;
+  background-color:#080e25ff;
+  padding: 1px;
+}
+
