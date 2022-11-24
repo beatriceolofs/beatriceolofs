@@ -63,7 +63,7 @@ Font sizes
   color: #E8C170;
   transition: 0.2s;
   text-decoration: none;
-  font-size: 2.5vmin;
+  font-size: 3vmin;
   background-color: rgba(9, 10, 20, 0.8);
   padding: 4px;
 }
@@ -226,7 +226,6 @@ Font sizes
   font-family: 'VT323', monospace;
   text-transform: lowercase;
   text-decoration: none;
-  padding-top: 12vh;
 }
 
 .quote {
@@ -307,7 +306,7 @@ Font sizes
 }
 
 .contactul a{
-  color:#A23E8C;
+  color:#4D8CB7;
   font-family: 'VT323', monospace;
   text-transform: lowercase;
   transition: 0.2s;
@@ -326,7 +325,7 @@ Font sizes
 }
 
 .takemeback a {
-  color:#4D8CB7;
+  color:#DF84A5;
   font-family: 'VT323', monospace;
   text-transform: lowercase;
   font-size: 5vmin;
@@ -347,7 +346,7 @@ Font sizes
 .svtlogo {
   position: absolute;
   align-self: flex-end;
-  width: 5vh;
+  height: 2vh;
   margin-top: 2vh;
   margin-right: 2vh;
 }
